@@ -1,3 +1,9 @@
+# revision 20885
+# category Package
+# catalog-ctan /macros/latex/contrib/mla-paper
+# catalog-date 2010-12-30 15:21:17 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-mla-paper
 Version:	20101230
 Release:	1
@@ -38,6 +44,7 @@ on their part.
 %files
 %{_texmfdistdir}/tex/latex/mla-paper/mla.sty
 %doc %{_texmfdistdir}/doc/latex/mla-paper/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -48,3 +55,5 @@ on their part.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

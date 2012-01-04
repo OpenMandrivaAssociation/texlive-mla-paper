@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-mla-paper
 Version:	20101230
-Release:	1
+Release:	2
 Summary:	Proper MLA formatting
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mla-paper

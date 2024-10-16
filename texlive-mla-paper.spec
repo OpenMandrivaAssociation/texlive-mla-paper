@@ -3,7 +3,7 @@ Version:	54080
 Release:	2
 Summary:	Proper MLA formatting
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mla-paper
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/mla-paper
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mla-paper.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mla-paper.doc.r%{version}.tar.xz
